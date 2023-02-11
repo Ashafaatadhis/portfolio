@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 15px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+}
+
+footer p span {
+  color: #f9513c;
+}
+
+@media only screen and (min-width: 500px) {
+  footer {
+    font-size: 18px;
+    margin: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    margin: 40px auto;
+    max-width: 1050px;
+
+    padding: 0px 20px;
+  }
+}

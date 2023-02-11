@@ -1,0 +1,175 @@
+.articles {
+  margin: 20px;
+  font-family: "Rubik";
+}
+
+.articles .blue {
+  border: 1px solid #5e6cc1;
+  color: #5e6cc1;
+}
+
+.articles-title {
+  font-size: 38px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.articles .search {
+  color: #888888;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+
+  /* margin-top: 18px; */
+}
+
+.articles .wrap-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.articles .wrap-filter .post-category {
+  margin: 0;
+}
+
+.articles .form-search input {
+  width: 100%;
+  font-family: "Rubik";
+  color: rgb(48, 48, 48);
+  padding: 10px;
+  /* font-weight: 500; */
+  padding-right: 0;
+  margin-top: 10px;
+  height: 38px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+.articles .btn-search {
+  width: 40px;
+  font-family: "Rubik";
+  color: rgb(48, 48, 48);
+  background: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 500; */
+  margin-top: 10px;
+  height: 38px;
+
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.articles .form-search input:focus {
+  outline: none;
+}
+
+.articles .wrap-search {
+  display: flex;
+}
+
+.articles .filter {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.articles .form-search input::placeholder {
+  color: rgb(145, 145, 145);
+  font-weight: 300;
+  font-size: 14px;
+  /* font-family: "Rubik"; */
+}
+
+@media only screen and (min-width: 500px) {
+  .articles {
+    margin: 30px;
+  }
+
+  .articles-title {
+    font-size: 40px;
+  }
+
+  .articles .form-search input {
+    height: 48px;
+    width: 100%;
+  }
+
+  .articles .form-search .btn-search {
+    height: 48px;
+    font-size: 16px;
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .articles {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 728px) {
+  .articles .form-search input {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .articles {
+    max-width: 1050px;
+    margin: 50px auto;
+    margin-bottom: 0;
+    display: flex;
+    padding: 0px 30px;
+    gap: 50px;
+  }
+
+  .articles-title {
+    margin: 0;
+  }
+
+  .articles .form-search input,
+  .articles .form-search button {
+    font-size: 16px;
+  }
+
+  .articles .form-search button {
+    width: 60px;
+  }
+
+  .articles .search {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .articles .form-search input::placeholder {
+    font-size: 16px;
+    /* font-family: "Rubik"; */
+  }
+
+  .articles .left {
+    width: 30%;
+  }
+  .articles .right {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .articles {
+    margin: 80px auto;
+    padding: 0px 20px;
+  }
+
+  .articles-title {
+    font-size: 48px;
+    font-weight: 400;
+  }
+}

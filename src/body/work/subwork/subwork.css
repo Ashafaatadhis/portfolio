@@ -1,0 +1,121 @@
+.subwork {
+  display: block;
+  margin: 20px;
+  font-family: "Rubik";
+}
+
+.subwork .left {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* background-color: red; */
+  /* padding: 0!important; */
+}
+
+.subwork .right {
+  margin-top: 20px;
+}
+.subwork .right-title {
+  font-weight: 400;
+}
+.subwork .right-desc {
+  font-weight: 300;
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 13px;
+}
+.subwork .right-details {
+  background-color: #4b6cc1;
+  border: 0;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  padding: 10px 20px;
+  border-radius: 18px;
+  color: #fff;
+}
+
+.subwork .right-info {
+  color: rgb(105, 105, 105);
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.subwork .right-info span {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.subwork img {
+  width: 100%;
+  /* height: 130%; */
+  /* margin: 20px; */
+  margin-bottom: -4px;
+  transition: all 0.3s ease;
+  /* padding: 0; */
+}
+
+.subwork img:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (min-width: 1024px) {
+  .subwork {
+    margin: 70px auto !important;
+    padding: 0px 20px;
+    max-width: 1300px !important;
+  }
+
+  .subwork .left {
+    width: 60% !important;
+    /* background-color: red; */
+  }
+  .subwork .right {
+    width: 40% !important;
+  }
+
+  .subwork .right-title {
+    font-size: 35px;
+  }
+
+  .subwork .right-desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .subwork .right-info {
+    font-size: 18px;
+    margin-top: 13px;
+  }
+
+  .subwork .right-info span {
+    font-size: 12px;
+  }
+
+  .subwork .right-details {
+    margin-top: 28px;
+  }
+}
+
+@media only screen and (min-width: 677px) {
+  .subwork {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+  }
+
+  .subwork .left {
+    width: 70%;
+    /* background-color: red; */
+  }
+  .subwork .right {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .subwork {
+    margin: 30px;
+  }
+}

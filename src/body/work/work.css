@@ -1,0 +1,57 @@
+.work {
+  margin: 20px;
+  font-family: "Rubik";
+}
+
+.work-title {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.work-desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  .work {
+    margin: 30px;
+  }
+
+  .work-title {
+    font-size: 40px;
+  }
+
+  .work-desc {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .work-title {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .work {
+    max-width: 1050px;
+    margin: 80px auto;
+    margin-bottom: 0;
+    padding: 0px 20px;
+  }
+
+  .work-title {
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  .work-desc {
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+}

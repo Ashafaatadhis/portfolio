@@ -1,0 +1,29 @@
+.article-title {
+  font-family: "Rubik";
+  font-size: 28px;
+  margin-top: 80px;
+}
+
+.article-garis {
+  height: 5px;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 40px;
+  background-color: #ddd;
+}
+
+@media only screen and (min-width: 500px) {
+  .article-title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .article-title {
+    font-size: 40px;
+  }
+
+  .article-garis {
+    margin-top: 50px;
+  }
+}

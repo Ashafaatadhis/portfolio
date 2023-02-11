@@ -1,0 +1,118 @@
+.contact {
+  margin: 20px;
+
+  font-family: "Rubik";
+}
+
+.contact form {
+  margin-top: 30px;
+}
+
+.contact form span {
+  color: rgb(161, 0, 0);
+}
+.contact form label {
+  color: #888888;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  font-family: "Rubik";
+  color: rgb(48, 48, 48);
+  padding: 10px;
+  /* font-weight: 500; */
+  margin-top: 10px;
+  height: 38px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+}
+
+.contact form textarea {
+  resize: none;
+  height: 130px;
+}
+
+.contact form .sendMsg {
+  margin-top: 15px;
+  background-color: #4b6cc1;
+  color: #fff;
+  font-family: "Rubik";
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .contact {
+    margin: 30px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    height: 48px;
+    width: 100%;
+  }
+  .contact .nameContact .form-name {
+    width: 50%;
+  }
+  .contact .nameContact .form-email {
+    width: 50%;
+  }
+
+  .contact .nameContact {
+    display: flex;
+    gap: 28px;
+  }
+
+  .contact form .sendMsg {
+    font-size: 17px;
+    border-radius: 22px;
+    padding: 15px 23px;
+    margin-top: 28px;
+  }
+}
+@media only screen and (min-width: 728px) {
+  .contact {
+    max-width: 728px;
+    padding: 0px 30px;
+    margin: 30px auto;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contact form {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .contact {
+    margin: 80px auto;
+    margin-bottom: 0;
+    padding: 0px 0px;
+  }
+
+  .contact form label {
+    font-size: 16px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: 16px;
+  }
+}

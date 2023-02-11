@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .link {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+nav .name-link {
+  color: black;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  column-gap: 20px;
+}
+
+.my-img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  width: 100px;
+  height: 100px;
+}
+
+.nav-link {
+  display: flex;
+  color: #5e5e5e;
+  /* margin-top: 10px; */
+  gap: 20px;
+  font-family: "Rubik";
+  /* background-color: red; */
+  /* line-height: 50px; */
+  position: relative;
+  font-weight: 500;
+
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-link-pc {
+  display: none;
+}
+
+.nav-name {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+
+  height: 50px;
+}
+
+.nav-name::before {
+  content: "";
+  width: 40%;
+  height: 6px;
+  background-color: #4b6cc1;
+  border-radius: 40px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.nav-right-top {
+  height: 50%;
+}
+.nav-right {
+  flex-direction: column;
+  /* gap: 10px; */
+
+  justify-content: center;
+  display: flex;
+  gap: 20%;
+
+  /* row-gap: 20px; */
+}
+
+.nav-link-mb {
+  display: flex;
+
+  /* margin-top: 10px; */
+  gap: 20px;
+  margin-top: 10px;
+  font-family: "Rubik";
+  /* background-color: red; */
+  /* line-height: 50px; */
+  position: relative;
+  font-weight: 500;
+
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 667px) {
+  .nav {
+    column-gap: 40px;
+  }
+  .nav-right {
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: start;
+    display: flex;
+    gap: 22%;
+
+    /* row-gap: 20px; */
+  }
+
+  .nav-link-mb {
+    display: none;
+  }
+
+  .nav-link-pc {
+    display: flex;
+
+    /* margin-top: 10px; */
+    gap: 40px;
+    font-family: "Rubik";
+    /* background-color: red; */
+    /* line-height: 50px; */
+    position: relative;
+    font-weight: 500;
+
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-link-mb {
+    font-size: 15px;
+    column-gap: 4vw;
+    row-gap: 5px;
+  }
+
+  .nav-name {
+    font-size: 25px;
+
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 268px) {
+  .my-img {
+    width: 35vw;
+    height: 35vw;
+  }
+}
